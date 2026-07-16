@@ -1,0 +1,71 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    background: linear-gradient(135deg,#fbc2eb,purple);
+}
+
+.hero{
+    position: relative;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.hero img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4); /* dark layer */
+    border-radius: 20px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    color: white;
+}
+
+.overlay h3{
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.overlay h1{
+    font-size: 32px;
+    line-height: 1.4;
+}
+
+.overlay span{
+    color: purple;
+}
+
+.overlay p{
+    margin-top: 10px;
+    max-width: 400px;
+    font-size: 14px;
+}
+.overlay button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.overlay button:hover{
+    background: #e2e8f0;
+}
